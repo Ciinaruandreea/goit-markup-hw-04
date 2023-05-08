@@ -17,26 +17,29 @@
 .global-body li {
   list-style-type: none;
 }
-.main-nav-ul {
-  display: flex;
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
 }
 .header-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.container {
-  margin: 0 auto;
-  width: 1200px;
+.nav {
+  display: flex;
+  align-items: center;
 }
 .webstudio-nav {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 94px;
 }
 .web-nav {
   color: #2196f3;
@@ -44,69 +47,43 @@
 .studio-nav {
   color: #000000;
 }
-.main-navigation {
+.nav-bar {
   display: flex;
 }
-.main-navigation .main-logo {
-  padding: 24px 93px 25px 215px;
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
 }
-.main-navigation ul {
-  display: flex;
-  padding: 50px;
-}
-.main-navigation ul li + li {
-  margin-left: 50px;
-}
-.studio-page .portfolio-page .contacts-page .mail-page .tel-page {
+.nav-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.header-contacts-ul {
-  display: flex;
-}
-.contacts-li:not(:last-child) {
-  margin-right: 50px;
-}
-.contacts-li {
-  display: flex;
-}
-.mail-page {
-  color: #757575;
-}
-.mail-page-icon {
-  display: flex;
-
-  margin-right: 10px;
-}
-.tel-page-icon {
-  display: flex;
-  color: #757575;
-  margin-right: 10px;
-}
-.tel-page {
-  color: #757575;
-}
-.studio-page {
   color: #212121;
-}
-.portfolio-page {
-  color: #212121;
-}
-.contacts-page {
-  color: #212121;
-}
-.header-contacts {
-  display: flex;
-}
-.header-contacts-ul {
-  display: flex;
-  margin-left: 215px;
+  margin-left: 50px;
 }
 
+.header-contacts-ul {
+  display: flex;
+  margin-left: 150px;
+}
+
+.header-mail-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  padding: 32px 31px;
+  color: #757575;
+}
+.header-mail-tel:hover,
+.header-mail-tel:focus {
+  color: #2196f3;
+}
 .top-main {
   background-color: #2f303a;
   padding: 200px 0px;
@@ -357,16 +334,21 @@ img {
   margin-bottom: 50px;
   justify-content: center;
 }
+.port-button-section {
+  display: flex;
+}
 .port-buttons-li:not(:last-child) {
   margin-right: 8px;
 }
-.current-button,
+
 .button:hover,
 .button:focus {
   background-color: #2196f3;
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  color: #ffffff;
 }
 .button {
   font-family: "Roboto";
@@ -382,18 +364,9 @@ img {
   padding: 6px 22px 6px 22px;
   margin-left: 8px;
 }
-
-.port-button-section {
-  display: flex;
-}
-
-.port-buttons {
-  display: flex;
-}
 .port-buttons li + li {
   margin-left: 8px;
 }
-
 .port-cards {
   display: flex;
   flex-wrap: wrap;

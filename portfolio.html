@@ -20,35 +20,41 @@
   <body class="global-body">
     <!-- Header-->
 
-    <header class="global-header section">
+    <header class="global-header">
       <div class="header-div container">
-        <nav class="main-navigation">
-          <ul class="main-nav-ul">
-            <li>
-              <a class="webstudio-nav" href="WebStudio">
-                <span class="web-nav">Web</span>
-                <span class="studio-nav">Studio</span>
-              </a>
-            </li>
-            <li class="main-page-link">
-              <a class="studio-page" href="index.html" rel=""> Studio</a>
+        <nav class="nav">
+          <a class="webstudio-nav" href="WebStudio">
+            <span class="web-nav">Web</span>
+            <span class="studio-nav">Studio</span>
+          </a>
+          <ul class="nav-bar">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" rel=""> Studio</a>
             </li>
             <li>
-              <a class="portfolio-page" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li>
-              <a class="contacts-page" href="Contacts">Contacts</a>
+              <a class="nav-link" href="Contacts">Contacts</a>
             </li>
           </ul>
           <div class="header-contacts">
             <ul class="header-contacts-ul">
               <li class="contacts-li">
-                <a class="mail-page" href="mailto:info@devstudio.com"
-                  >info@devstudio.com
+                <a class="header-mail-tel" href="mailto:info@devstudio.com">
+                  <svg class="header-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-mail"></use>
+                  </svg>
+                  info@devstudio.com
                 </a>
               </li>
               <li class="contacts-li">
-                <a class="tel-page" href="tel:+12127724150">+1 212-772-4150</a>
+                <a class="header-mail-tel" href="tel:+12127724150">
+                  <svg class="header-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-smartphone"></use>
+                  </svg>
+                  +1 212-772-4150</a
+                >
               </li>
             </ul>
           </div>
@@ -77,136 +83,136 @@
               <button class="button" type="button">Marketing</button>
             </li>
           </ul>
-        </div>
 
-        <ul class="port-cards">
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/Technoduck.jpg"
-                alt="technoduck"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Technoduck</h4>
-                <p class="port-text">Web-site</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/Poster.jpg"
-                alt="poster"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Poster New Orlean vs Golden Star</h4>
-                <p class="port-text">Design</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/Seafood.jpg"
-                alt="seafood"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Seafood Restaurant</h4>
-                <p class="port-text">Apps</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/Project-prime.jpg"
-                alt="project-prime"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Project Prime</h4>
-                <p class="port-text">Marketing</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/ProjectBoxes.jpg"
-                alt="project-boxes"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Project Boxes</h4>
-                <p class="port-text">Apps</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/Inspiration.jpg"
-                alt="inspiration"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Inspiration has no Borders</h4>
-                <p class="port-text">Web-site</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/LimitedEdition.jpg"
-                alt="limited-edition"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Limited Edition</h4>
-                <p class="port-text">Design</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/ProjectLAB.jpg"
-                alt="project-LAB"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Project LAB</h4>
-                <p class="port-text">Marketing</p>
-              </div>
-            </a>
-          </li>
-          <li class="port-card">
-            <a class="port-card-a" href="./portfolio.html">
-              <img
-                src="./images/Business.jpg"
-                alt="business"
-                width="370"
-                height="294"
-              />
-              <div class="port-container">
-                <h4 class="port-title">Growing Business</h4>
-                <p class="port-text">Apps</p>
-              </div>
-            </a>
-          </li>
-        </ul>
+          <ul class="port-cards">
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/Technoduck.jpg"
+                  alt="technoduck"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Technoduck</h4>
+                  <p class="port-text">Web-site</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/Poster.jpg"
+                  alt="poster"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Poster New Orlean vs Golden Star</h4>
+                  <p class="port-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/Seafood.jpg"
+                  alt="seafood"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Seafood Restaurant</h4>
+                  <p class="port-text">Apps</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/Project-prime.jpg"
+                  alt="project-prime"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Project Prime</h4>
+                  <p class="port-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/ProjectBoxes.jpg"
+                  alt="project-boxes"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Project Boxes</h4>
+                  <p class="port-text">Apps</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/Inspiration.jpg"
+                  alt="inspiration"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Inspiration has no Borders</h4>
+                  <p class="port-text">Web-site</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/LimitedEdition.jpg"
+                  alt="limited-edition"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Limited Edition</h4>
+                  <p class="port-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/ProjectLAB.jpg"
+                  alt="project-LAB"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Project LAB</h4>
+                  <p class="port-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-card-a" href="./portfolio.html">
+                <img
+                  src="./images/Business.jpg"
+                  alt="business"
+                  width="370"
+                  height="294"
+                />
+                <div class="port-container">
+                  <h4 class="port-title">Growing Business</h4>
+                  <p class="port-text">Apps</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
