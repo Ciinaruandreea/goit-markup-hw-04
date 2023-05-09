@@ -365,8 +365,6 @@ img {
   align-self: center;
   justify-content: center;
   gap: 30;
-  flex-basis: calc(100% / 3);
-  width: 100%;
 }
 
 .port-card {
