@@ -284,16 +284,7 @@ img {
   color: #ffffff;
 }
 
-.mail-footer {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.tel-footer {
+.mail-tel-footer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
