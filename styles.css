@@ -85,11 +85,16 @@
   padding: 32px 31px;
   color: #757575;
 }
-
+.header-mail-tel:hover use,
+.header-mail-tel:focus use {
+  fill: #2196f3;
+}
 .header-icon {
   margin-right: 10px;
   box-sizing: inherit;
+  fill: #757575;
 }
+
 .top-main {
   background-color: #2f303a;
   padding: 200px 0px;
@@ -271,9 +276,9 @@ img {
 .our-team-icon-div svg {
   width: 20px;
   height: 20px;
+  fill: #757575;
 }
-
-.icon-circle {
+.our-team-icon-div .icon-circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -288,7 +293,10 @@ img {
 
   background: #2196f3;
 }
-
+.icon-circle:hover use,
+.icon-circle:focus use {
+  fill: #ffffff;
+}
 .footer-page {
   background: #2f303a;
   padding: 60px 0px;
@@ -483,9 +491,12 @@ img {
   margin-right: 30px;
 }
 
-.customer-li:hover,
-.customer-li:focus {
+.customer-li:hover use,
+.customer-li:focus use {
+  fill: #2196f3;
   border: 1px solid #2196f3;
+
+  border-radius: 4px;
   outline: none;
 }
 
@@ -495,6 +506,7 @@ img {
   width: 106px;
   height: 60px;
   padding: 16px 32px;
+  fill: #757575;
 }
 .customer-li {
   border: 1px solid #afb1b8;
@@ -505,6 +517,11 @@ img {
   width: 170px;
   height: 92px;
   cursor: pointer;
+}
+.customer-li:hover,
+.customer-li:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 
 .footer-icon-div {
@@ -540,10 +557,16 @@ img {
   align-items: center;
   margin-left: 10px;
 }
-
+.find-icon-circle {
+  fill: #ffffff;
+}
 .find-icon-div a:hover,
 .find-icon-div a:focus {
   cursor: pointer;
-  fill: currentColor;
+
   background: #2196f3;
+}
+.find-icon-circle:hover use,
+.find-icon-circle:focus use {
+  fill: #ffffff;
 }
